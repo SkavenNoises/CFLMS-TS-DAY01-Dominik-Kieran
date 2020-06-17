@@ -1,0 +1,1 @@
+"use strict";for(var i=0;i<10;i++)document.write([i]+"x1"+[i]);var message="Hello World";console.log(message);
