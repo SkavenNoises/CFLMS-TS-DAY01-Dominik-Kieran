@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Restaurant</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+        />
+
+        <!-- Star rating library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Custom Styling-->
+        <link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Restaurant</a>
+
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="navbarDropdown"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Locations
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Wien</a>
+							<a class="dropdown-item" href="#">Steirmark</a>
+                        </div>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+					</li>
+				</ul>
+			</div>
+        </nav>
+        
+        <div class="jumbotron jumboStyle">
+            <h1 class="display-4 text-light">Restaurant</h1>
+
+            <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laboriosam facilis exercitationem! Maiores perspiciatis minima quam explicabo!</p>          
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Todays Menu:</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-starter-tab" data-toggle="pill" href="#v-pills-starter" role="tab" aria-controls="v-pills-starter" aria-selected="true">Starter</a>
+                    <a class="nav-link" id="v-pills-main-tab" data-toggle="pill" href="#v-pills-main" role="tab" aria-controls="v-pills-main" aria-selected="false">Main</a>
+                    <a class="nav-link" id="v-pills-dessert-tab" data-toggle="pill" href="#v-pills-dessert" role="tab" aria-controls="v-pills-dessert" aria-selected="false">Desert</a>
+                    <a class="nav-link" id="v-pills-drinks-tab" data-toggle="pill" href="#v-pills-drinks" role="tab" aria-controls="v-pills-drinks" aria-selected="false">Drinks</a>
+                  </div>
+                </div>
+
+                <div class="col-9">
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-starter" role="tabpanel" aria-labelledby="v-pills-starter-tab"><!-- Javascript generated content here--></div>
+
+                    <div class="tab-pane fade" id="v-pills-main" role="tabpanel" aria-labelledby="v-pills-profile-tab"><!-- Javascript generated content here--></div>
+
+                    <div class="tab-pane fade" id="v-pills-dessert" role="tabpanel" aria-labelledby="v-pills-messages-tab"><!-- Javascript generated content here--></div>
+
+                    <div class="tab-pane fade" id="v-pills-drinks" role="tabpanel" aria-labelledby="v-pills-settings-tab"><!-- Javascript generated content here--></div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+        ></script>
+        
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+        ></script>
+        
+		<script src="js/script.js"></script>
+	</body>
+</html>
